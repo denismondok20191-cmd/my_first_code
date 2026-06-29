@@ -1,2 +1,5 @@
-capitan_name = input("Введоть ім'я")
-print ("Кораюель готовий капітане," + capitan_name)
+capitan_name = input ("Введsть ім'я: ")
+print ("Кораюель готовий капітане, " + capitan_name + ".")
+chelenge = input("Попереду астероід! Що робити? 1-стріляти 2-відпливти? ")
+if chelenge == "1": print ("Бум астероід знищено.")
+else: print ("Астуроід обпливли.")
